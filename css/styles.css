@@ -813,10 +813,15 @@ img {
   border-radius: 50%;
   background-color: var(--color-accent-2);
 }
+
 .close-button-icon {
   width: 12px;
   height: 12px;
   fill: var(--super-black-color);
+}
+
+.close-button-icon:hover {
+  fill: var(--color-accent);
 }
 
 .is-hidden {
@@ -825,13 +830,14 @@ img {
   pointer-events: none;
 }
 
+/* Оставьте свои данные, мы вам перезвоним */
 .modal-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--main-color);
   margin-bottom: 12px;
 }
 
@@ -866,7 +872,7 @@ img {
 
 .modal-form-input:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: var(--color-accent);
 }
 
 .modal-form-icon {
@@ -881,7 +887,7 @@ img {
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  fill: var(--accent-color);
+  fill: var(--color-accent);
 }
 
 .modal-form-message {
@@ -905,15 +911,15 @@ img {
 
 .modal-form-message:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: var(--color-accent);
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
-  background-color: var(--accent-color);
-  background-image: url(../images/modal/vector.svg);
+  background-color: var(--color-accent);
+  background-image: url(../images/vector.svg);
   background-position: center;
   background-repeat: no-repeat;
-  border-color: var(--accent-color);
+  border-color: var(--color-accent);
 }
 
 .modal-form-policy-text::before {
@@ -921,9 +927,13 @@ img {
   display: inline-block;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--main-text-color);
+  border: 2px solid var(--main-color);
   border-radius: 2px;
   margin-right: 9px;
+}
+
+.conditions {
+  text-decoration: underline;
 }
 
 .modal-form-policy-text {
@@ -942,7 +952,7 @@ img {
 .modal-form-button {
   width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: var(--color-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -955,7 +965,7 @@ img {
   cursor: pointer;
   /* padding: 10px 32px; */
   margin: auto;
-  color: var(--white-color);
+  color: var(--color-accent-2);
   outline: none;
 }
 
