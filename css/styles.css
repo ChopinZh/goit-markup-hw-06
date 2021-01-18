@@ -553,6 +553,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 70px;
 }
 
 .contacts-footer-item {
@@ -566,7 +567,7 @@ img {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
