@@ -553,7 +553,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 70px;
 }
 
 .contacts-footer-item {
@@ -596,7 +595,7 @@ img {
 .footer-list {
   display: flex;
   flex-direction: column;
-  margin-right: 70px;
+  margin-right: 93px;
 }
 
 .footer-subscribe {
