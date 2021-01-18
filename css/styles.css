@@ -534,7 +534,7 @@ img {
 
 .client-list-link:hover,
 .client-list-link:focus {
-  fill: var(--accent-color);
+  fill: var(--color-accent);
 }
 
 .clients .container {
@@ -558,6 +558,11 @@ img {
 .contacts-footer-item {
   flex-direction: column;
   display: flex;
+  font-style: normal;
+}
+
+.footer-address-list {
+  margin-right: 70px;
 }
 
 .address-footer,
@@ -592,9 +597,13 @@ img {
   font-style: normal;
 }
 
-.footer-list-box {
+.footer-list {
   display: flex;
   flex-direction: column;
+}
+
+.footer-social-list {
+  margin-left: 70px;
   margin-right: 93px;
 }
 
