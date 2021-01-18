@@ -592,7 +592,7 @@ img {
   font-style: normal;
 }
 
-.footer-list {
+.footer-list-box {
   display: flex;
   flex-direction: column;
   margin-right: 93px;
@@ -669,9 +669,6 @@ img {
   fill: var(--color-accent-2);
   width: 24px;
   height: 24px;
-}
-
-.foote-icon:not(:first-child) {
   margin-left: 10px;
 }
 
