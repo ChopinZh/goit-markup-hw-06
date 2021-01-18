@@ -601,7 +601,6 @@ img {
 .footer-subscribe {
   margin-top: 72px;
   margin-bottom: 94px;
-  margin-left: 93px;
   margin-right: 0;
 }
 
@@ -670,6 +669,9 @@ img {
   fill: var(--color-accent-2);
   width: 24px;
   height: 24px;
+}
+
+.foote-icon:not(:first-child) {
   margin-left: 10px;
 }
 
